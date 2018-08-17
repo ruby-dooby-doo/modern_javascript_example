@@ -5,6 +5,7 @@ module.exports = {
     filename: 'main.js',
     publicPath: 'dist'
   },
+  sourceType: "module",
   module: {
     rules: [
       {
