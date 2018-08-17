@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -90,11 +90,11 @@
 /*!******************!*\
   !*** ./index.js ***!
   \******************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var mathjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n/* harmony import */ var mathjs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(mathjs__WEBPACK_IMPORTED_MODULE_0__);\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log('I am not in javascript');\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\n\n\n\n\n// use math.js\nconsole.log(mathjs__WEBPACK_IMPORTED_MODULE_0__[\"sqrt\"](-4)); // 2i\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("\n\nvar _mathjs = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nvar math = _interopRequireWildcard(_mathjs);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log('I am not in javascript');\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\n\n// use math.js\nconsole.log(math.sqrt(-16)); // 2i\n\n\nvar name = \"Bob\",\n    time = \"today\";\nconsole.log('Hello ' + name + ', how are you ' + time + '?');\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
